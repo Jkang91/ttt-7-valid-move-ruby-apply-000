@@ -1,9 +1,9 @@
 def valid_move?(board,index)
-  position = index.to_i - 1
+  board[index] = index.to_i - 1
 end
 
-def position_taken?(board = [" "," "," "," "," "," "," "," "," "], position)
-  if board < 0 || board[position] > 9
+def position_taken?(board = [" "," "," "," "," "," "," "," "," "], index)
+  if board[index] < 0 || board[index] > 9
     false
   else 
     return true
