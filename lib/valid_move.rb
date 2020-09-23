@@ -3,4 +3,5 @@ def valid_move?(board,index)
 end
 
 def position_taken?(board, position)
+  if board[position]
 end
