@@ -1,1 +1,2 @@
-def valid_move?()
+def valid_move?
+end
